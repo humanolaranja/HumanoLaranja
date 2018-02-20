@@ -1,0 +1,251 @@
+/* all about jumbotron */
+.jumbotron {
+  background:         no-repeat center center fixed url(../images/background.jpg);
+  background-size:    cover;
+  margin-bottom:      0;
+  height:             100vh;
+  justify-content:    center;
+}
+.jumbotron .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  z-index: 2;
+}
+.jumbotron .scroll-down {
+  height: 80px;
+  width: 90px;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  right: 5%;
+  background-color: #222222;
+  text-align: center;
+  z-index: 6;
+}
+.jumbotron .language {
+  height: 80px;
+  width: 90px;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  padding-top: 15px;
+  left: 5%;
+  background-color: #222222;
+  text-align: center;
+  z-index: 6;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.jumbotron .scroll-down .fas {
+  color: #FFFFFF;
+  font-size: 30px;
+  padding-right: 2px;
+  padding-top: 20px;
+  animation: MoveUpDown 3s linear infinite;
+}
+.jumbotron .container {
+  position:     relative;
+  text-align:   center;
+  top:          30%;
+}
+.jumbotron .container h1 {
+  padding-bottom:         20px;
+  border-bottom:          1px solid #fff;
+  border-bottom-color:    rgba(255,255,255,0.35);
+  display:                inline-block;
+}
+
+.container {
+  max-width:  1920px;
+  padding:    40px 20%;
+}
+
+.fixed .navbar {
+  position:               fixed;
+  top:                    80px;
+}
+
+.navbar {
+  border:           0px;
+  background-color: #222222;
+  position:         absolute;
+  top:              100%;
+  right:            5%;
+  width:            90px;
+  z-index:          999;
+}
+.navbar .nav > li {
+  display: block;
+  float:   none;
+  height:  80px;
+  width:   auto;
+}
+.navbar .navbar-nav {
+  float: none;
+  flex-direction: column;
+}
+
+.collapse.navbar-collapse {
+  margin: -8px -16px -8px -16px !important;
+  height: 275px; /* +55px per iten */
+}
+
+.ml-auto, .mx-auto {
+  width: 90px;
+  height: 275px; /* +55px per iten */
+}
+
+.active {
+  background-color: #c63d0f;
+}
+
+.nav-link {
+  color: white !important;
+  text-align: center;
+  padding-top: 18px;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 12px;
+}
+
+.profile {
+  margin-top:    20px;
+  margin-bottom: 20px;
+}
+
+.white {
+  color:  #fff;
+}
+
+.colored {
+  color:#c63d0f;
+}
+
+.morespace {
+  margin: 20px;
+}
+
+.littlespacetop {
+  margin-top: 5px;
+}
+
+.space {
+  margin: 20px;
+}
+
+#perfil-main.container {
+  background-color: #ffeee2;
+}
+
+#experiencias-main.container {
+  background-color: #ffb07d;
+}
+
+#habilidades-main.container {
+  background-color: #d9853b;
+}
+
+#projetos-main.container {
+  background-color: #e45e25;
+}
+
+#contato-main.container {
+  color: white;
+  background-color: #242424;
+}
+
+#contato-main.container a {
+  color: #c9c9c9;
+  margin-top: -5px;
+}
+
+#contato-main.container a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#habilidades-main .divstar:hover {
+  background: #e2934e;
+}
+
+#habilidades-main .divstar .fa-star {
+  transition: all linear 0.3s;
+}
+
+#habilidades-main .divstar:hover .fa-star {
+  margin-right: 1px;
+  transition: all linear 0.3s;
+}
+
+hr {
+  margin: 40px 0px;
+  border-color: #727878;
+  opacity: 0.2;
+}
+
+
+.project {
+  position: relative;
+  width: 100%;
+}
+
+.image-project {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.project .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #c63d0f;
+}
+
+.project:hover .overlay {
+  opacity: 0.9;
+}
+
+.project .text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-decoration: none;
+}
+
+.nodecoration {
+  text-decoration: none !important;
+  color: #c63d0f;
+}
+
+.nodecoration:hover {
+  text-decoration: none !important;
+  color: #95300e;
+}
+
+
+.project .text strong {
+  font-size: 20px;
+}
+
+.project a {
+  text-decoration: none;
+}
+
+img[alt="www.000webhost.com"] {
+  display:none;
+}
