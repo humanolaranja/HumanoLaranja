@@ -153,7 +153,7 @@
     $experienciasdados   .= '{';
     $experienciasdados   .= '"Carreiras":';
     $experienciasdados   .= '[';
-    $experienciasdados   .= '{"where":"Ofício GR","period":"2017-Atualmente","name":"Desenvolvedor Júnior","desc":"Aonde definitivamente coloquei em prática meus conhecimentos e aprendi com outros membros. Empresa responsável por me colocar no mercado de trabalho e proporcionar oportunidades de liderança dentro da empresa, tomando frente em tarefas importantes, desde desenvolvimento à alteraçao de dados em servidores de produção","place":"Home Office","site":"http://www.oficiogr.com.br"},';
+    $experienciasdados   .= '{"where":"Ofício GR","period":"2017-Atualmente","name":"Desenvolvedor Júnior","desc":"Onde definitivamente coloquei em prática meus conhecimentos e aprendi com outros membros. Empresa responsável por me colocar no mercado de trabalho e proporcionar oportunidades de liderança dentro da empresa, tomando frente em tarefas importantes, desde desenvolvimento à alteraçao de dados em servidores de produção","place":"Home Office","site":"http://www.oficiogr.com.br"},';
     $experienciasdados   .= '{"where":"Conpec","period":"2017-Atualmente","name":"Assessor de Projetos","desc":"Local que me trouxe oportunidades de compartilhar o que sei e aprender mais sobre o funcionamento de consultoria e empreendedorismo, fui responsável por aplicar alguns workshopsem nome da empresa, assim como participar de vários outros","place":"Campinas - SP","site":"http://www.conpec.com.br"}';
     $experienciasdados   .= ']';
     $experienciasdados   .= '},';
