@@ -6,7 +6,7 @@
     $habilidades          = 'Abilities';
     $projetos             = 'Projects';
     $contato              = 'Contact';
-    $descperfil           = 'Junior programmer hungry for knowledge';
+    $descperfil           = 'Junior developer hungry for knowledge';
     $descexperiencias     = 'Places I keep in my heart';
     $deschabilidades      = 'A little of what I know';
     $descprojetos         = 'A little bit of me out there';
@@ -27,25 +27,25 @@
     $experienciasdados    = '[';
 
     $experienciasdados   .= '{';
-    $experienciasdados   .= '"Educação":';
+    $experienciasdados   .= '"Educations":';
     $experienciasdados   .= '[';
-    $experienciasdados   .= '{"where":"Unicamp","period":"2017-Atualmente","name":"Bacharelado em Ciência da Computação","desc":"Um curso que abrange muitos temas das comptação. Considerada a melhor faculdade da América Latina, e a melhor avaliação de curso no País.","place":"Campinas - SP"},';
-    $experienciasdados   .= '{"where":"Etec de Francisco Morato","period":"2014-2017","name":"Ensino Médio Integrado ao Técnico em Informática para a Internet","desc":"Aonde aprendi a base do que sei, lógica de programação e a paixão pela tecnologia.","place":"Francisco Morato - SP"}';
+    $experienciasdados   .= '{"where":"Unicamp","period":"2017-Now","name":"Bachelor - Computer Science","desc":"A course that covers many topics of computing. Considered the best college in Latin America, and the best course evaluation in the country.","place":"Campinas - SP"},';
+    $experienciasdados   .= '{"where":"Etec de Francisco Morato","period":"2014-2017","name":"Integrated Higher Education in Computer Science for the Internet","desc":"Where I learned the basis of what I know, programming logic and passion for technology.","place":"Francisco Morato - SP"}';
     $experienciasdados   .= ']';
     $experienciasdados   .= '},';
 
     $experienciasdados   .= '{';
-    $experienciasdados   .= '"Carreiras":';
+    $experienciasdados   .= '"Careers":';
     $experienciasdados   .= '[';
-    $experienciasdados   .= '{"where":"Conpec","period":"2017-Atualmente","name":"Assessor de Projetos","desc":"Depois eu escrevo","place":"Campinas - SP","site":"http://www.conpec.com.br"},';
-    $experienciasdados   .= '{"where":"Ofício GR","period":"2017-Atualmente","name":"Programador Júnior","desc":"Depois eu escrevo","place":"Home Office","site":"http://www.oficiogr.com.br"}';
+    $experienciasdados   .= '{"where":"Ofício GR","period":"2017-Now","name":"Junior Developer","desc":"Depois eu escrevo","place":"Home Office","site":"http://www.oficiogr.com.br"},';
+    $experienciasdados   .= '{"where":"Conpec","period":"2017-Now","name":"Project Advisor","desc":"Depois eu escrevo","place":"Campinas - SP","site":"http://www.conpec.com.br"}';
     $experienciasdados   .= ']';
     $experienciasdados   .= '},';
 
     $experienciasdados   .= '{';
-    $experienciasdados   .= '"Trabalhos Voluntários":';
+    $experienciasdados   .= '"Volunteer Works":';
     $experienciasdados   .= '[';
-    $experienciasdados   .= '{"where":"test","period":"test","name":"test","desc":"test","place":"test","site":"test"}';
+    $experienciasdados   .= '{"where":"Etec de Francisco Morato","period":"2015-2017","name":"Help the school","desc":"General maintenance of computers, acting in the installation and maintenance of the various machines of the place, both in the hardware part as in the restructuring of the network and reformulation of the computer systems.","place":"Francisco Morato - SP"}';
     $experienciasdados   .= ']';
     $experienciasdados   .= '}';
 
@@ -55,7 +55,7 @@
     $habilidadesdados     = '[';
 
     $habilidadesdados    .= '{';
-    $habilidadesdados    .= '"Habilidades":';
+    $habilidadesdados    .= '"Abilities":';
     $habilidadesdados    .= '[';
     $habilidadesdados    .= '{"name":"HTML","stars":"5"},';
     $habilidadesdados    .= '{"name":"CSS","stars":"4"},';
@@ -75,15 +75,15 @@
     $habilidadesdados    .= '},';
 
     $habilidadesdados    .= '{';
-    $habilidadesdados    .= '"Idiomas":';
+    $habilidadesdados    .= '"Languages":';
     $habilidadesdados    .= '[';
-    $habilidadesdados    .= '{"name":"Português","stars":"5"},';
-    $habilidadesdados    .= '{"name":"Inglês","stars":"4"}';
+    $habilidadesdados    .= '{"name":"Portuguese","stars":"5"},';
+    $habilidadesdados    .= '{"name":"English","stars":"4"}';
     $habilidadesdados    .= ']';
     $habilidadesdados    .= '},';
 
     $habilidadesdados    .= '{';
-    $habilidadesdados    .= '"Ferramentas":';
+    $habilidadesdados    .= '"Tools":';
     $habilidadesdados    .= '[';
     $habilidadesdados    .= '{"name":"Atom","stars":"5"},';
     $habilidadesdados    .= '{"name":"Windows","stars":"5"},';
@@ -109,7 +109,8 @@
 
 
     $projetosdados     = '[';
-    $projetosdados    .= '{"name":"Currículo Humano Laranja","desc":"Um currículo interativo da qual eu explorei um pouco do que sei, juntando conceitos de UI, UX e alteração de idioma com PHP","img":"humanolaranja.jpg","url":"https://www.humanolaranja.com.br"}';
+    $projetosdados    .= '{"name":"Orange Human\'s Resume","desc":"An interactive curriculum from which I have explored some of what I know, joining concepts of UI, UX and language change with PHP","img":"humanolaranja.jpg","url":"http://www.humanolaranja.com.br"},';
+    $projetosdados    .= '{"name":"Conpec","desc":"Desc","img":"conpec.jpg","url":"http://www.conpec.com.br"}';
     $projetosdados    .= ']';
   }
   else {
@@ -119,7 +120,7 @@
     $habilidades          = 'Habilidades';
     $projetos             = 'Projetos';
     $contato              = 'Contato';
-    $descperfil           = 'Programador Júnior com fome de conhecimento';
+    $descperfil           = 'Desenvolvedor Júnior com fome de conhecimento';
     $descexperiencias     = 'Lugares que guardo no coração';
     $deschabilidades      = 'Um pouco do que sei';
     $descprojetos         = 'Um pedacinho de mim por aí';
@@ -142,23 +143,23 @@
     $experienciasdados   .= '{';
     $experienciasdados   .= '"Educação":';
     $experienciasdados   .= '[';
-    $experienciasdados   .= '{"where":"Unicamp","period":"2017-Atualmente","name":"Bacharelado em Ciência da Computação","desc":"Um curso que abrange muitos temas das comptação. Considerada a melhor faculdade da América Latina, e a melhor avaliação de curso no País.","place":"Campinas - SP"},';
-    $experienciasdados   .= '{"where":"Etec de Francisco Morato","period":"2014-2017","name":"Ensino Médio Integrado ao Técnico em Informática para a Internet","desc":"Aonde aprendi a base do que sei, lógica de programação e a paixão pela tecnologia.","place":"Francisco Morato - SP"}';
+    $experienciasdados   .= '{"where":"Unicamp","period":"2017-Atualmente","name":"Bacharelado em Ciência da Computação","desc":"Um curso que abrange muitos temas das computação. Considerada a melhor faculdade da América Latina, e a melhor avaliação de curso no País.","place":"Campinas - SP"},';
+    $experienciasdados   .= '{"where":"Etec de Francisco Morato","period":"2014-2017","name":"Ensino Médio Integrado ao Técnico em Informática para a Internet","desc":"Onde aprendi a base do que sei, lógica de programação e a paixão pela tecnologia.","place":"Francisco Morato - SP"}';
     $experienciasdados   .= ']';
     $experienciasdados   .= '},';
 
     $experienciasdados   .= '{';
     $experienciasdados   .= '"Carreiras":';
     $experienciasdados   .= '[';
-    $experienciasdados   .= '{"where":"Conpec","period":"2017-Atualmente","name":"Assessor de Projetos","desc":"Depois eu escrevo","place":"Campinas - SP","site":"http://www.conpec.com.br"},';
-    $experienciasdados   .= '{"where":"Ofício GR","period":"2017-Atualmente","name":"Programador Júnior","desc":"Depois eu escrevo","place":"Home Office","site":"http://www.oficiogr.com.br"}';
+    $experienciasdados   .= '{"where":"Ofício GR","period":"2017-Atualmente","name":"Desenvolvedor Júnior","desc":"Depois eu escrevo","place":"Home Office","site":"http://www.oficiogr.com.br"},';
+    $experienciasdados   .= '{"where":"Conpec","period":"2017-Atualmente","name":"Assessor de Projetos","desc":"Depois eu escrevo","place":"Campinas - SP","site":"http://www.conpec.com.br"}';
     $experienciasdados   .= ']';
     $experienciasdados   .= '},';
 
     $experienciasdados   .= '{';
     $experienciasdados   .= '"Trabalhos Voluntários":';
     $experienciasdados   .= '[';
-    $experienciasdados   .= '{"where":"test","period":"test","name":"test","desc":"test","place":"test","site":"test"}';
+    $experienciasdados   .= '{"where":"Etec de Francisco Morato","period":"2015-2017","name":"Ajudar a escola","desc":"Manutenção geral de computadores, atuando na instalação e manutenção das diversas máquinas do local, tanto na parte de hardware como na reestruturação da rede e reformulação dos sistemas dos computadores.","place":"Francisco Morato - SP"}';
     $experienciasdados   .= ']';
     $experienciasdados   .= '}';
 
@@ -222,7 +223,8 @@
 
 
     $projetosdados     = '[';
-    $projetosdados    .= '{"name":"Currículo Humano Laranja","desc":"Um currículo interativo da qual eu explorei um pouco do que sei, juntando conceitos de UI, UX e alteração de idioma com PHP","img":"humanolaranja.jpg","url":"https://www.humanolaranja.com.br"}';
+    $projetosdados    .= '{"name":"Currículo Humano Laranja","desc":"Um currículo interativo da qual eu explorei um pouco do que sei, juntando conceitos de UI, UX e alteração de idioma com PHP","img":"humanolaranja.jpg","url":"http://www.humanolaranja.com.br"},';
+    $projetosdados    .= '{"name":"Conpec","desc":"Desc","img":"conpec.jpg","url":"http://www.conpec.com.br"}';
     $projetosdados    .= ']';
   }
 ?>

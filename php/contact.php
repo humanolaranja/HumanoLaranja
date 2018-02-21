@@ -11,7 +11,7 @@
     </div>
     <div class="col col-md-6 col-sm-12 divstar">
       <i class="fab fa-linkedin fa-2x space"></i>
-      <a href = "https://www.linkedin.com/in/humanolaranja/">https://www.linkedin.com/in/humanolaranja/</a>
+      <a href = "https://www.linkedin.com/in/humanolaranja/">Linkedin</a>
     </div>
   </div>
 </div>

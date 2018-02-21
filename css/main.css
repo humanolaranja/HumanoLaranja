@@ -146,7 +146,7 @@
 }
 
 #habilidades-main.container {
-  background-color: #d9853b;
+  background-color: #e27749;
 }
 
 #projetos-main.container {
@@ -169,7 +169,7 @@
 }
 
 #habilidades-main .divstar:hover {
-  background: #e2934e;
+  background: #e97a4b;
 }
 
 #habilidades-main .divstar .fa-star {
@@ -246,6 +246,6 @@ hr {
   text-decoration: none;
 }
 
-img[alt="www.000webhost.com"] {
-  display:none;
+.hide {
+  display: none !important;
 }
