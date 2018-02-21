@@ -5,20 +5,7 @@
     <?php include 'php/header.php'; ?>
   </head>
   <body>
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col">
-            <h1 class="display-3 white hide"><?php echo $curriculo; ?></h1>
-            <h1 class="display-3 white hide">Carlos Eduardo</h1>
-            <h1 class="display-3 white"><?php echo $title; ?></h1>
-            <p class="lead white">Creative and motivated Developer</p>
-          </div>
-        </div>
-      </div>
-      <div class="overlay"></div>
-      <?php include 'php/buttons.php'; ?>
-    </div>
+    <?php include 'php/imageindex.php'; ?>
     <?php include 'php/navbar.php'; ?>
     <?php include 'php/profile.php'; ?>
     <?php include 'php/experiences.php'; ?>

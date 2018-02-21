@@ -1,6 +1,7 @@
 <?php
   if (isset($_REQUEST['english'])) {
     $title                = 'Orange Human';
+    $subtitle             = 'Creative and Motivated Developer';
     $perfil               = 'Profile';
     $experiencias         = 'Experiences';
     $habilidades          = 'Abilities';
@@ -16,6 +17,7 @@
     $detalhes             = 'Details';
     $nome                 = 'Name:';
     $meunome              = 'Carlos Eduardo da Silva Santos';
+    $meunomecurto         = 'Carlos Eduardo';
     $idade                = 'Age:';
     $minhaidade           = '18yo';
     $localizacao          = 'Location:';
@@ -116,6 +118,7 @@
   }
   else {
     $title                = 'Humano Laranja';
+    $subtitle             = 'Desenvolvedor Criativo e Motivado';
     $perfil               = 'Perfil';
     $experiencias         = 'Experiências';
     $habilidades          = 'Habilidades';
@@ -131,6 +134,7 @@
     $detalhes             = 'Detalhes';
     $nome                 = 'Nome:';
     $meunome              = 'Carlos Eduardo da Silva Santos';
+    $meunomecurto         = 'Carlos Eduardo';
     $idade                = 'Idade:';
     $minhaidade           = '18 anos';
     $localizacao          = 'Localização';
