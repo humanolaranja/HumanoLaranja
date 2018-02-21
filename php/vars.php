@@ -38,8 +38,8 @@
     $experienciasdados   .= '{';
     $experienciasdados   .= '"Careers":';
     $experienciasdados   .= '[';
-    $experienciasdados   .= '{"where":"Ofício GR","period":"2017-Now","name":"Junior Developer","desc":"Depois eu escrevo","place":"Home Office","site":"http://www.oficiogr.com.br"},';
-    $experienciasdados   .= '{"where":"Conpec","period":"2017-Now","name":"Project Advisor","desc":"Depois eu escrevo","place":"Campinas - SP","site":"http://www.conpec.com.br"}';
+    $experienciasdados   .= '{"where":"Ofício GR","period":"2017-Now","name":"Junior Developer","desc":"Where I definitely put my knowledge into practice and learned from other members. Company responsible for putting me in the job market and providing leadership opportunities within the company, taking on important tasks from development to change of data on production servers","place":"Home Office","site":"http://www.oficiogr.com.br"},';
+    $experienciasdados   .= '{"where":"Conpec","period":"2017-Now","name":"Project Advisor","desc":"Place that brought me opportunities to share what I know and learn more about the operation of consulting and entrepreneurship, I was responsible for applying some workshops on behalf of the company, as well as participating in several others","place":"Campinas - SP","site":"http://www.conpec.com.br"}';
     $experienciasdados   .= ']';
     $experienciasdados   .= '},';
 
@@ -111,7 +111,7 @@
 
     $projetosdados     = '[';
     $projetosdados    .= '{"name":"Orange Human\'s Resume","desc":"An interactive curriculum from which I have explored some of what I know, joining concepts of UI, UX and language change with PHP","img":"humanolaranja.jpg","url":"http://www.humanolaranja.com.br"},';
-    $projetosdados    .= '{"name":"Conpec","desc":"Desc","img":"conpec.jpg","url":"http://www.conpec.com.br"}';
+    $projetosdados    .= '{"name":"Conpec","desc":"Site of communication and contact of the first junior Computer company in the country","img":"conpec.jpg","url":"http://www.conpec.com.br"}';
     $projetosdados    .= ']';
   }
   else {
@@ -153,8 +153,8 @@
     $experienciasdados   .= '{';
     $experienciasdados   .= '"Carreiras":';
     $experienciasdados   .= '[';
-    $experienciasdados   .= '{"where":"Ofício GR","period":"2017-Atualmente","name":"Desenvolvedor Júnior","desc":"Depois eu escrevo","place":"Home Office","site":"http://www.oficiogr.com.br"},';
-    $experienciasdados   .= '{"where":"Conpec","period":"2017-Atualmente","name":"Assessor de Projetos","desc":"Depois eu escrevo","place":"Campinas - SP","site":"http://www.conpec.com.br"}';
+    $experienciasdados   .= '{"where":"Ofício GR","period":"2017-Atualmente","name":"Desenvolvedor Júnior","desc":"Aonde definitivamente coloquei em prática meus conhecimentos e aprendi com outros membros. Empresa responsável por me colocar no mercado de trabalho e proporcionar oportunidades de liderança dentro da empresa, tomando frente em tarefas importantes, desde desenvolvimento à alteraçao de dados em servidores de produção","place":"Home Office","site":"http://www.oficiogr.com.br"},';
+    $experienciasdados   .= '{"where":"Conpec","period":"2017-Atualmente","name":"Assessor de Projetos","desc":"Local que me trouxe oportunidades de compartilhar o que sei e aprender mais sobre o funcionamento de consultoria e empreendedorismo, fui responsável por aplicar alguns workshopsem nome da empresa, assim como participar de vários outros","place":"Campinas - SP","site":"http://www.conpec.com.br"}';
     $experienciasdados   .= ']';
     $experienciasdados   .= '},';
 
@@ -226,7 +226,7 @@
 
     $projetosdados     = '[';
     $projetosdados    .= '{"name":"Currículo Humano Laranja","desc":"Um currículo interativo da qual eu explorei um pouco do que sei, juntando conceitos de UI, UX e alteração de idioma com PHP","img":"humanolaranja.jpg","url":"http://www.humanolaranja.com.br"},';
-    $projetosdados    .= '{"name":"Conpec","desc":"Desc","img":"conpec.jpg","url":"http://www.conpec.com.br"}';
+    $projetosdados    .= '{"name":"Conpec","desc":"Site de divulgação e contato da primeira empresa júnior de Computação no país","img":"conpec.jpg","url":"http://www.conpec.com.br"}';
     $projetosdados    .= ']';
   }
 ?>
