@@ -1,4 +1,4 @@
-<div id="projetos-main" class="container">
+<div id="projetos-topo" class="container">
   <h2 class="text-center"><?php echo $projetos; ?></h2>
   <p class="lead text-center"><?php echo $descprojetos; ?></p>
   <hr/>

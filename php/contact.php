@@ -1,4 +1,4 @@
-<div id="contato-main" class="container">
+<div id="contato-topo" class="container">
   <h2 class="text-center"><?php echo $contato; ?></h2>
   <p class="lead text-center">
     <?php echo $desccontato; ?>

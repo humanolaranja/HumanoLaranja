@@ -137,46 +137,46 @@
   margin: 20px;
 }
 
-#perfil-main.container {
+#perfil-topo.container {
   background-color: #ffeee2;
 }
 
-#experiencias-main.container {
+#experiencias-topo.container {
   background-color: #ffb07d;
 }
 
-#habilidades-main.container {
+#habilidades-topo.container {
   background-color: #e27749;
 }
 
-#projetos-main.container {
+#projetos-topo.container {
   background-color: #e45e25;
 }
 
-#contato-main.container {
+#contato-topo.container {
   color: white;
   background-color: #242424;
 }
 
-#contato-main.container a {
+#contato-topo.container a {
   color: #c9c9c9;
   margin-top: -5px;
 }
 
-#contato-main.container a:hover {
+#contato-topo.container a:hover {
   color: white;
   text-decoration: none;
 }
 
-#habilidades-main .divstar:hover {
+#habilidades-topo .divstar:hover {
   background: #e97a4b;
 }
 
-#habilidades-main .divstar .fa-star {
+#habilidades-topo .divstar .fa-star {
   transition: all linear 0.3s;
 }
 
-#habilidades-main .divstar:hover .fa-star {
+#habilidades-topo .divstar:hover .fa-star {
   margin-right: 1px;
   transition: all linear 0.3s;
 }

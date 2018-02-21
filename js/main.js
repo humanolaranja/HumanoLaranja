@@ -89,32 +89,32 @@ function activeClassOnScroll()
     var y = y + 80;
 
 		// perfil
-    if(y >= $('#perfil-main.container').offset().top) {
+    if(y >= $('#perfil-topo.container').offset().top) {
 			$('.nav-item').removeClass('active');
 			$('.nav-item#perfil').addClass('active');
     }
 
 		var y = y - 60;
 		//experiencias
-		if(y >= $('#experiencias-main.container').offset().top) {
+		if(y >= $('#experiencias-topo.container').offset().top) {
 			$('.nav-item').removeClass('active');
 			$('.nav-item#experiencias').addClass('active');
     }
 
 		//habilidades
-		if(y >= $('#habilidades-main.container').offset().top) {
+		if(y >= $('#habilidades-topo.container').offset().top) {
 			$('.nav-item').removeClass('active');
 			$('.nav-item#habilidades').addClass('active');
     }
 
 		//projetos
-		if(y >= $('#projetos-main.container').offset().top) {
+		if(y >= $('#projetos-topo.container').offset().top) {
 			$('.nav-item').removeClass('active');
 			$('.nav-item#projetos').addClass('active');
     }
 
 		//contato
-		if(y >= $('#contato-main.container').offset().top) {
+		if(y >= $('#contato-topo.container').offset().top) {
 			$('.nav-item').removeClass('active');
 			$('.nav-item#contato').addClass('active');
     }

@@ -1,4 +1,4 @@
-<div id="perfil-main" class="container">
+<div id="perfil-topo" class="container">
   <h2 class="text-center"><?php echo $perfil; ?></h2>
   <p class="lead text-center"><?php echo $descperfil; ?></p>
   <hr>

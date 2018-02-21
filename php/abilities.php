@@ -1,4 +1,4 @@
-<div id="habilidades-main" class="container">
+<div id="habilidades-topo" class="container">
   <h2 class="text-center"><?php echo $habilidades; ?></h2>
   <p class="lead text-center"><?php echo $deschabilidades; ?></p>
   <hr/>

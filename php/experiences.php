@@ -1,4 +1,4 @@
-<div id="experiencias-main" class="container">
+<div id="experiencias-topo" class="container">
   <h2 class="text-center"><?php echo $experiencias; ?></h2>
   <p class="lead text-center"><?php echo $descexperiencias; ?></p>
   <hr/>
