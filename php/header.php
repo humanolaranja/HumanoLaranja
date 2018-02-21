@@ -4,9 +4,9 @@
 <meta http-equiv="content-style-type"   content="text/css" />
 <meta name="viewport"                   content="width=device-width, initial-scale=0.6" />
 <meta name="author"                     content="Carlos Eduardo da Silva Santos" />
-<meta name="description"                content="Olá, sou Carlos Eduardo e esse é meu currículo online, conheça minhas habilidades e entre em contato" />
+<meta name="description"                content="Olá, sou Carlos Eduardo, vulgo Humano Laranja, e esse é meu currículo online, conheça minhas habilidades e entre em contato (Currículo Humano Laranja)" />
 <meta name="image"                      content="images/projects/humanolaranja.jpg" />
-<title><?php echo $title; ?></title>
+<title><?php echo $curriculo; ?></title>
 <link rel="shortcut icon" type="image/x-icon"  href="images/favicon.ico"/>
 <link rel="icon"          type="image/x-icon"  href="images/favicon.ico"/>
 <link rel="stylesheet"    type="text/css"      href="css/bootstrap.min.css"/>

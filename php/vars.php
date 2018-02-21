@@ -22,6 +22,7 @@
     $minhalocalizacao     = 'Campinas, Brazil, Earth';
     $idioma               = 'Versão em Português?';
     $idiomalink           = 'index.php';
+    $curriculo            = 'Orange Human\'s Resume';
 
 
     $experienciasdados    = '[';
@@ -136,6 +137,7 @@
     $minhalocalizacao     = 'Campinas, Brasil, Terra';
     $idioma               = 'English Version?';
     $idiomalink           = '?english';
+    $curriculo            = 'Currículo Humano Laranja';
 
 
     $experienciasdados    = '[';
