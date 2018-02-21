@@ -191,6 +191,7 @@ hr {
 .project {
   position: relative;
   width: 100%;
+  margin-bottom: 30px;
 }
 
 .image-project {
