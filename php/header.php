@@ -8,6 +8,7 @@
 <meta name="og:title"                   content="Currículo Humano Laranja" />
 <meta name="og:image"                   content="http://humanolaranja.com.br/images/projects/humanolaranja.jpg" />
 <meta name="og:description"             content="Olá, sou Carlos Eduardo, vulgo Humano Laranja, e esse é meu currículo online, conheça minhas habilidades e entre em contato (Currículo Humano Laranja)" />
+<meta name="robots" content="noodp,noydir" />
 <title><?php echo $curriculo; ?></title>
 <link rel="shortcut icon" type="image/x-icon"  href="images/favicon.ico"/>
 <link rel="icon"          type="image/x-icon"  href="images/favicon.ico"/>
