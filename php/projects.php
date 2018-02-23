@@ -9,7 +9,7 @@
       <div class="project">
         <img src="images/projects/<?php echo $value['img']; ?>" alt="<?php echo $value['name']; ?>" class="image-project">
         <div class="overlay">
-          <a href="<?php echo $value['url']; ?>">
+          <a href="<?php echo $value['url']; ?>" target="_blank">
             <div class="col col-md-12 col-sm-12 col-12 text">
               <strong><?php echo $value['name']; ?></strong><br/><br/>
               <?php echo $value['desc']; ?>

@@ -158,7 +158,7 @@
   background-color: #242424;
 }
 
-#contato-topo.container a {
+#contato-topo.container .contact {
   color: #c9c9c9;
   margin-top: -5px;
 }
