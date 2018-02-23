@@ -1,7 +1,7 @@
 <?php
   if (isset($_REQUEST['english'])) {
     $title                = 'Orange Human';
-    $subtitle             = 'Creative and Motivated Developer';
+    $subtitle             = 'Creative and Motivated Web Developer';
     $perfil               = 'Profile';
     $experiencias         = 'Experiences';
     $habilidades          = 'Abilities';
@@ -118,7 +118,7 @@
   }
   else {
     $title                = 'Humano Laranja';
-    $subtitle             = 'Desenvolvedor Criativo e Motivado';
+    $subtitle             = 'Desenvolvedor Web Criativo e Motivado';
     $perfil               = 'Perfil';
     $experiencias         = 'Experiências';
     $habilidades          = 'Habilidades';
