@@ -138,19 +138,19 @@
 }
 
 #perfil-topo.container {
-  background-color: #ffeee2;
+  background-color: #dfdfdf;
 }
 
 #experiencias-topo.container {
-  background-color: #ffb07d;
-}
-
-#habilidades-topo.container {
   background-color: #e27749;
 }
 
-#projetos-topo.container {
+#habilidades-topo.container {
   background-color: #e45e25;
+}
+
+#projetos-topo.container {
+  background-color: #dd501d;
 }
 
 #contato-topo.container {
@@ -169,7 +169,7 @@
 }
 
 #habilidades-topo .divstar:hover {
-  background: #e97a4b;
+  background: #e4591e;
 }
 
 #habilidades-topo .divstar .fa-star {

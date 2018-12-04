@@ -1,13 +1,13 @@
 <?php
   if (isset($_REQUEST['english'])) {
     $title                = 'Orange Human';
-    $subtitle             = 'Creative and Motivated Web Developer';
+    $subtitle             = 'Creative and Motivated Developer';
     $perfil               = 'Profile';
     $experiencias         = 'Experiences';
     $habilidades          = 'Abilities';
     $projetos             = 'Projects';
     $contato              = 'Contact';
-    $descperfil           = 'Junior developer hungry for knowledge';
+    $descperfil           = 'Developer hungry for knowledge';
     $descexperiencias     = 'Places I keep in my heart';
     $deschabilidades      = 'A little of what I know';
     $descprojetos         = 'A little bit of me out there';
@@ -22,7 +22,7 @@
     $minhaidade           = '18yo';
     $localizacao          = 'Location:';
     $minhalocalizacao     = 'Campinas, Brazil, Earth';
-    $idioma               = 'Versão em Português?';
+    $idioma               = 'Versão em Português';
     $idiomalink           = 'index.php';
     $curriculo            = 'Orange Human\'s Resume';
 
@@ -40,8 +40,8 @@
     $experienciasdados   .= '{';
     $experienciasdados   .= '"Careers":';
     $experienciasdados   .= '[';
-    $experienciasdados   .= '{"where":"Ofício GR","period":"2017-Now","name":"Junior Developer","desc":"Where I definitely put my knowledge into practice and learned from other members. Company responsible for putting me in the job market and providing leadership opportunities within the company, taking on important tasks from development to change of data on production servers","place":"Home Office","site":"http://www.oficiogr.com.br"},';
-    $experienciasdados   .= '{"where":"Conpec","period":"2017-Now","name":"Project Advisor","desc":"Place that brought me opportunities to share what I know and learn more about the operation of consulting and entrepreneurship, I was responsible for applying some workshops on behalf of the company, as well as participating in several others","place":"Campinas - SP","site":"http://www.conpec.com.br"}';
+    $experienciasdados   .= '{"where":"Ofício GR","period":"2017-Now","name":"Senior Developer","desc":"Where I definitely put my knowledge into practice and learned from other members. Company responsible for putting me in the job market and providing leadership opportunities within the company, taking on important tasks from development to change of data on production servers","place":"Home Office","site":"http://www.oficiogr.com.br"},';
+    $experienciasdados   .= '{"where":"Conpec","period":"2017-2018","name":"Project Advisor","desc":"Place that brought me opportunities to share what I know and learn more about the operation of consulting and entrepreneurship, I was responsible for applying some workshops on behalf of the company, as well as participating in several others","place":"Campinas - SP","site":"http://www.conpec.com.br"}';
     $experienciasdados   .= ']';
     $experienciasdados   .= '},';
 
@@ -61,17 +61,19 @@
     $habilidadesdados    .= '"Abilities":';
     $habilidadesdados    .= '[';
     $habilidadesdados    .= '{"name":"HTML","stars":"5"},';
-    $habilidadesdados    .= '{"name":"CSS","stars":"4"},';
-    $habilidadesdados    .= '{"name":"Bootstrap3","stars":"4"},';
-    $habilidadesdados    .= '{"name":"GIT","stars":"4"},';
-    $habilidadesdados    .= '{"name":"Jquery","stars":"4"},';
-    $habilidadesdados    .= '{"name":"PHP","stars":"4"},';
+    $habilidadesdados    .= '{"name":"JavaScript","stars":"4"},';
+    $habilidadesdados    .= '{"name":"Node","stars":"4"},';
     $habilidadesdados    .= '{"name":"Json","stars":"4"},';
-    $habilidadesdados    .= '{"name":"SQL","stars":"4"},';
-    $habilidadesdados    .= '{"name":"JavaScript","stars":"3"},';
-    $habilidadesdados    .= '{"name":"Bootstrap4","stars":"3"},';
+    $habilidadesdados    .= '{"name":"PHP","stars":"4"},';
+    $habilidadesdados    .= '{"name":"CSS","stars":"4"},';
+    $habilidadesdados    .= '{"name":"Bootstrap","stars":"4"},';
+    $habilidadesdados    .= '{"name":"Jquery","stars":"4"},';
+    $habilidadesdados    .= '{"name":"MySql","stars":"4"},';
+    $habilidadesdados    .= '{"name":"GIT","stars":"4"},';
+    $habilidadesdados    .= '{"name":"RegEx","stars":"4"},';
+    $habilidadesdados    .= '{"name":"React","stars":"3"},';
+    $habilidadesdados    .= '{"name":"React Native","stars":"3"},';
     $habilidadesdados    .= '{"name":"C","stars":"3"},';
-    $habilidadesdados    .= '{"name":"C#","stars":"2"},';
     $habilidadesdados    .= '{"name":"Ionic","stars":"2"},';
     $habilidadesdados    .= '{"name":"Java","stars":"1"}';
     $habilidadesdados    .= ']';
@@ -97,12 +99,13 @@
     $habilidadesdados    .= '{"name":"Slack","stars":"5"},';
     $habilidadesdados    .= '{"name":"Firefox","stars":"5"},';
     $habilidadesdados    .= '{"name":"Photoshop","stars":"4"},';
-    $habilidadesdados    .= '{"name":"Sublime Text","stars":"4"},';
+    $habilidadesdados    .= '{"name":"Apache","stars":"4"},';
     $habilidadesdados    .= '{"name":"Linux","stars":"4"},';
     $habilidadesdados    .= '{"name":"WinSCP","stars":"4"},';
     $habilidadesdados    .= '{"name":"Filezilla","stars":"4"},';
     $habilidadesdados    .= '{"name":"Excel","stars":"4"},';
     $habilidadesdados    .= '{"name":"MySQLWorkbench","stars":"4"},';
+    $habilidadesdados    .= '{"name":"Scrum","stars":"4"},';
     $habilidadesdados    .= '{"name":"PostMan","stars":"3"},';
     $habilidadesdados    .= '{"name":"Visual Studio","stars":"3"}';
     $habilidadesdados    .= ']';
@@ -112,19 +115,21 @@
 
 
     $projetosdados     = '[';
-    $projetosdados    .= '{"name":"Orange Human\'s Resume","desc":"An interactive curriculum from which I have explored some of what I know, joining concepts of UI, UX and language change with PHP","img":"humanolaranja.jpg","url":"http://www.humanolaranja.com.br"},';
-    $projetosdados    .= '{"name":"Conpec","desc":"Site of communication and contact of the first junior Computer company in the country","img":"conpec.jpg","url":"http://www.conpec.com.br"}';
+    $projetosdados    .= '{"name":"Orange Human\'s Resume","desc":"An interactive curriculum from which I have explored some of what I know, joining concepts of UI, UX and language change with PHP","img":"humanolaranja.png","url":"http://www.humanolaranja.com.br"},';
+    $projetosdados    .= '{"name":"Conpec","desc":"Site of communication and contact of the first junior Computer company in the country","img":"conpec.png","url":"http://www.conpec.com.br"},';
+    $projetosdados    .= '{"name":"RCL Mangueiras","desc":"Site of disclosure and contact of one of the largest oil and gas companies in the country","img":"rcl.png","url":"http://www.rclmangueiras.com.br"},';
+    $projetosdados    .= '{"name":"Hermes Platform","desc":"Site of disclosure and contact of the main product of the company where I work","img":"hermesplatform.png","url":"http://www.hermesplatform.io"}';
     $projetosdados    .= ']';
   }
   else {
     $title                = 'Humano Laranja';
-    $subtitle             = 'Desenvolvedor Web Criativo e Motivado';
+    $subtitle             = 'Desenvolvedor Criativo e Motivado';
     $perfil               = 'Perfil';
     $experiencias         = 'Experiências';
     $habilidades          = 'Habilidades';
     $projetos             = 'Projetos';
     $contato              = 'Contato';
-    $descperfil           = 'Desenvolvedor Júnior com fome de conhecimento';
+    $descperfil           = 'Desenvolvedor com fome de conhecimento';
     $descexperiencias     = 'Lugares que guardo no coração';
     $deschabilidades      = 'Um pouco do que sei';
     $descprojetos         = 'Um pedacinho de mim por aí';
@@ -139,7 +144,7 @@
     $minhaidade           = '18 anos';
     $localizacao          = 'Localização';
     $minhalocalizacao     = 'Campinas, Brasil, Terra';
-    $idioma               = 'English Version?';
+    $idioma               = 'English Version';
     $idiomalink           = '?english';
     $curriculo            = 'Currículo Humano Laranja';
 
@@ -157,8 +162,8 @@
     $experienciasdados   .= '{';
     $experienciasdados   .= '"Carreiras":';
     $experienciasdados   .= '[';
-    $experienciasdados   .= '{"where":"Ofício GR","period":"2017-Atualmente","name":"Desenvolvedor Júnior","desc":"Onde definitivamente coloquei em prática meus conhecimentos e aprendi com outros membros. Empresa responsável por me colocar no mercado de trabalho e proporcionar oportunidades de liderança dentro da empresa, tomando frente em tarefas importantes, desde desenvolvimento à alteraçao de dados em servidores de produção","place":"Home Office","site":"http://www.oficiogr.com.br"},';
-    $experienciasdados   .= '{"where":"Conpec","period":"2017-Atualmente","name":"Assessor de Projetos","desc":"Local que me trouxe oportunidades de compartilhar o que sei e aprender mais sobre o funcionamento de consultoria e empreendedorismo, fui responsável por aplicar alguns workshopsem nome da empresa, assim como participar de vários outros","place":"Campinas - SP","site":"http://www.conpec.com.br"}';
+    $experienciasdados   .= '{"where":"Ofício GR","period":"2017-Atualmente","name":"Desenvolvedor Sênior","desc":"Onde definitivamente coloquei em prática meus conhecimentos e aprendi com outros membros. Empresa responsável por me colocar no mercado de trabalho e proporcionar oportunidades de liderança dentro da empresa, tomando frente em tarefas importantes, desde desenvolvimento à alteraçao de dados em servidores de produção","place":"Home Office","site":"http://www.oficiogr.com.br"},';
+    $experienciasdados   .= '{"where":"Conpec","period":"2017-2018","name":"Assessor de Projetos","desc":"Local que me trouxe oportunidades de compartilhar o que sei e aprender mais sobre o funcionamento de consultoria e empreendedorismo, fui responsável por aplicar alguns workshopsem nome da empresa, assim como participar de vários outros","place":"Campinas - SP","site":"http://www.conpec.com.br"}';
     $experienciasdados   .= ']';
     $experienciasdados   .= '},';
 
@@ -178,17 +183,19 @@
     $habilidadesdados    .= '"Habilidades":';
     $habilidadesdados    .= '[';
     $habilidadesdados    .= '{"name":"HTML","stars":"5"},';
-    $habilidadesdados    .= '{"name":"Bootstrap3","stars":"4"},';
-    $habilidadesdados    .= '{"name":"CSS","stars":"4"},';
-    $habilidadesdados    .= '{"name":"GIT","stars":"4"},';
-    $habilidadesdados    .= '{"name":"Jquery","stars":"4"},';
-    $habilidadesdados    .= '{"name":"PHP","stars":"4"},';
+    $habilidadesdados    .= '{"name":"JavaScript","stars":"4"},';
+    $habilidadesdados    .= '{"name":"Node","stars":"4"},';
     $habilidadesdados    .= '{"name":"Json","stars":"4"},';
-    $habilidadesdados    .= '{"name":"SQL","stars":"4"},';
-    $habilidadesdados    .= '{"name":"JavaScript","stars":"3"},';
-    $habilidadesdados    .= '{"name":"Bootstrap4","stars":"3"},';
+    $habilidadesdados    .= '{"name":"PHP","stars":"4"},';
+    $habilidadesdados    .= '{"name":"CSS","stars":"4"},';
+    $habilidadesdados    .= '{"name":"Bootstrap","stars":"4"},';
+    $habilidadesdados    .= '{"name":"Jquery","stars":"4"},';
+    $habilidadesdados    .= '{"name":"MySql","stars":"4"},';
+    $habilidadesdados    .= '{"name":"GIT","stars":"4"},';
+    $habilidadesdados    .= '{"name":"RegEx","stars":"4"},';
+    $habilidadesdados    .= '{"name":"React","stars":"3"},';
+    $habilidadesdados    .= '{"name":"React Native","stars":"3"},';
     $habilidadesdados    .= '{"name":"C","stars":"3"},';
-    $habilidadesdados    .= '{"name":"C#","stars":"2"},';
     $habilidadesdados    .= '{"name":"Ionic","stars":"2"},';
     $habilidadesdados    .= '{"name":"Java","stars":"1"}';
     $habilidadesdados    .= ']';
@@ -214,12 +221,13 @@
     $habilidadesdados    .= '{"name":"Slack","stars":"5"},';
     $habilidadesdados    .= '{"name":"Firefox","stars":"5"},';
     $habilidadesdados    .= '{"name":"Photoshop","stars":"4"},';
-    $habilidadesdados    .= '{"name":"Sublime Text","stars":"4"},';
+    $habilidadesdados    .= '{"name":"Apache","stars":"4"},';
     $habilidadesdados    .= '{"name":"Linux","stars":"4"},';
     $habilidadesdados    .= '{"name":"WinSCP","stars":"4"},';
     $habilidadesdados    .= '{"name":"Filezilla","stars":"4"},';
     $habilidadesdados    .= '{"name":"Excel","stars":"4"},';
     $habilidadesdados    .= '{"name":"MySQLWorkbench","stars":"4"},';
+    $habilidadesdados    .= '{"name":"Scrum","stars":"4"},';
     $habilidadesdados    .= '{"name":"PostMan","stars":"3"},';
     $habilidadesdados    .= '{"name":"Visual Studio","stars":"3"}';
     $habilidadesdados    .= ']';
@@ -229,8 +237,10 @@
 
 
     $projetosdados     = '[';
-    $projetosdados    .= '{"name":"Currículo Humano Laranja","desc":"Um currículo interativo da qual eu explorei um pouco do que sei, juntando conceitos de UI, UX e alteração de idioma com PHP","img":"humanolaranja.jpg","url":"http://www.humanolaranja.com.br"},';
-    $projetosdados    .= '{"name":"Conpec","desc":"Site de divulgação e contato da primeira empresa júnior de Computação no país","img":"conpec.jpg","url":"http://www.conpec.com.br"}';
+    $projetosdados    .= '{"name":"Currículo Humano Laranja","desc":"Um currículo interativo da qual eu explorei um pouco do que sei, juntando conceitos de UI, UX e alteração de idioma com PHP","img":"humanolaranja.png","url":"http://www.humanolaranja.com.br"},';
+    $projetosdados    .= '{"name":"Conpec","desc":"Site de divulgação e contato da primeira empresa júnior de Computação no país","img":"conpec.png","url":"http://www.conpec.com.br"},';
+    $projetosdados    .= '{"name":"RCL Mangueiras","desc":"Site de divulgação e contato de uma das maiores empresas de óleo e gás do país","img":"rcl.png","url":"http://www.rclmangueiras.com.br"},';
+    $projetosdados    .= '{"name":"Hermes Platform","desc":"Site de divulgação e contato do principal produto da empresa onde trabalho","img":"hermesplatform.png","url":"http://www.hermesplatform.io"}';
     $projetosdados    .= ']';
   }
 ?>
